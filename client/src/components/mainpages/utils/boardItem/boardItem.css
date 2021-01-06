@@ -1,0 +1,77 @@
+.board_card {
+    transition: 0.3s;
+    width: 19%;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.board_card img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+}
+
+.board_box {
+    max-height: 90px;
+}
+
+.board_box h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 70px;
+    text-align: center;
+}
+
+.board_card span {
+    color: crimson;
+}
+
+.board_box p {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #323232;
+
+}
+
+.row_btn {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_btn a {
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+}
+
+#btn_buy {
+    background: #555;
+    margin-right: 5px;
+}
+
+#btn_view {
+    background: teal;
+    margin-left: 5px;
+}
+
+.board_card input {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}

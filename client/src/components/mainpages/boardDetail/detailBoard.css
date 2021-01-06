@@ -1,0 +1,128 @@
+.detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+
+.btn-glyphicon {
+    padding: 8px;
+    background: #ffffff;
+    margin-right: 4px;
+}
+
+.icon-btn {
+    padding: 1px 15px 3px 2px;
+    border-radius: 50px;
+}
+
+.detail img {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+.NotStarted  {
+    background-color: #FC7150;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+
+
+.InProgress {
+    background-color: #5185FC;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.InReview {
+    background-color: #ffa64d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.Completed {
+    background-color:#4DD778;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.Cancelled{
+    background-color: #ff3333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.Critical{
+    background-color: #ff3333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.High  {
+    background-color: #FC7150;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.Medium {
+    background-color:#4DD778;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.Low {
+    background-color: #80e5ff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.box-detail {
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+}
+
+.box-detail .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-detail h2 {
+    text-transform: uppercase;
+    color: darkblue;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+
+.box-detail p {
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+}
+
+.box-detail .cart {
+    background: #333;
+    color: white;
+    margin-top: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
